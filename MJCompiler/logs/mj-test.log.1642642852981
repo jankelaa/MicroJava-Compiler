@@ -1,0 +1,311 @@
+INFO  02:34:15,283 - Compiling source file: D:\PP1\3. Semanticka analiza - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  02:34:15,321 - #2 program
+INFO  02:34:15,322 - #47 test301
+INFO  02:34:15,322 - #5 const
+INFO  02:34:15,324 - #47 int
+INFO  02:34:15,324 - #47 nula
+INFO  02:34:15,325 - #6 =
+INFO  02:34:15,325 - #48 0
+INFO  02:34:15,326 - #7 ;
+INFO  02:34:15,328 - #5 const
+INFO  02:34:15,329 - #47 int
+INFO  02:34:15,329 - #47 jedan
+INFO  02:34:15,329 - #6 =
+INFO  02:34:15,329 - #48 1
+INFO  02:34:15,330 - #7 ;
+INFO  02:34:15,330 - #5 const
+INFO  02:34:15,330 - #47 int
+INFO  02:34:15,330 - #47 pet
+INFO  02:34:15,330 - #6 =
+INFO  02:34:15,331 - #48 5
+INFO  02:34:15,331 - #7 ;
+INFO  02:34:15,331 - #47 int
+INFO  02:34:15,331 - #47 niz
+INFO  02:34:15,332 - #9 [
+INFO  02:34:15,332 - #10 ]
+INFO  02:34:15,332 - #7 ;
+INFO  02:34:15,335 - #47 char
+INFO  02:34:15,336 - #47 nizch
+INFO  02:34:15,336 - #9 [
+INFO  02:34:15,336 - #10 ]
+INFO  02:34:15,336 - #7 ;
+INFO  02:34:15,336 - #3 {
+INFO  02:34:15,337 - #15 void
+INFO  02:34:15,337 - #47 main
+INFO  02:34:15,337 - #13 (
+INFO  02:34:15,338 - #14 )
+INFO  02:34:15,338 - #47 int
+INFO  02:34:15,339 - #47 bodovi
+INFO  02:34:15,339 - #7 ;
+INFO  02:34:15,341 - #3 {
+INFO  02:34:15,341 - #47 bodovi
+INFO  02:34:15,342 - #6 =
+INFO  02:34:15,344 - #48 0
+INFO  02:34:15,344 - #7 ;
+INFO  02:34:15,347 - #47 bodovi
+INFO  02:34:15,348 - #25 ++
+INFO  02:34:15,348 - #7 ;
+INFO  02:34:15,349 - #47 bodovi
+INFO  02:34:15,349 - #6 =
+INFO  02:34:15,349 - #47 bodovi
+INFO  02:34:15,351 - #38 +
+INFO  02:34:15,351 - #47 jedan
+INFO  02:34:15,352 - #7 ;
+INFO  02:34:15,353 - #47 bodovi
+INFO  02:34:15,353 - #6 =
+INFO  02:34:15,353 - #47 bodovi
+INFO  02:34:15,353 - #39 *
+INFO  02:34:15,353 - #47 pet
+INFO  02:34:15,354 - #7 ;
+INFO  02:34:15,354 - #47 bodovi
+INFO  02:34:15,355 - #26 --
+INFO  02:34:15,355 - #7 ;
+INFO  02:34:15,355 - #22 print
+INFO  02:34:15,355 - #13 (
+INFO  02:34:15,356 - #47 bodovi
+INFO  02:34:15,356 - #14 )
+INFO  02:34:15,356 - #7 ;
+INFO  02:34:15,356 - #47 niz
+INFO  02:34:15,356 - #6 =
+INFO  02:34:15,356 - #30 new
+INFO  02:34:15,356 - #47 int
+INFO  02:34:15,356 - #9 [
+INFO  02:34:15,356 - #48 3
+INFO  02:34:15,356 - #10 ]
+INFO  02:34:15,357 - #7 ;
+INFO  02:34:15,357 - #47 niz
+INFO  02:34:15,357 - #9 [
+INFO  02:34:15,357 - #47 nula
+INFO  02:34:15,357 - #10 ]
+INFO  02:34:15,357 - #6 =
+INFO  02:34:15,357 - #47 jedan
+INFO  02:34:15,357 - #7 ;
+INFO  02:34:15,358 - #47 niz
+INFO  02:34:15,358 - #9 [
+INFO  02:34:15,358 - #48 1
+INFO  02:34:15,358 - #10 ]
+INFO  02:34:15,358 - #6 =
+INFO  02:34:15,358 - #48 2
+INFO  02:34:15,358 - #7 ;
+INFO  02:34:15,358 - #47 niz
+INFO  02:34:15,359 - #9 [
+INFO  02:34:15,359 - #47 niz
+INFO  02:34:15,359 - #9 [
+INFO  02:34:15,359 - #47 jedan
+INFO  02:34:15,359 - #10 ]
+INFO  02:34:15,359 - #10 ]
+INFO  02:34:15,359 - #6 =
+INFO  02:34:15,359 - #47 niz
+INFO  02:34:15,359 - #9 [
+INFO  02:34:15,360 - #47 niz
+INFO  02:34:15,360 - #9 [
+INFO  02:34:15,360 - #48 0
+INFO  02:34:15,361 - #10 ]
+INFO  02:34:15,361 - #10 ]
+INFO  02:34:15,361 - #39 *
+INFO  02:34:15,361 - #48 3
+INFO  02:34:15,361 - #7 ;
+INFO  02:34:15,361 - #47 bodovi
+INFO  02:34:15,361 - #6 =
+INFO  02:34:15,361 - #47 niz
+INFO  02:34:15,361 - #9 [
+INFO  02:34:15,361 - #48 2
+INFO  02:34:15,361 - #10 ]
+INFO  02:34:15,361 - #40 /
+INFO  02:34:15,362 - #47 niz
+INFO  02:34:15,362 - #9 [
+INFO  02:34:15,362 - #48 0
+INFO  02:34:15,362 - #10 ]
+INFO  02:34:15,362 - #7 ;
+INFO  02:34:15,363 - #22 print
+INFO  02:34:15,363 - #13 (
+INFO  02:34:15,363 - #47 bodovi
+INFO  02:34:15,363 - #14 )
+INFO  02:34:15,363 - #7 ;
+INFO  02:34:15,363 - #22 print
+INFO  02:34:15,363 - #13 (
+INFO  02:34:15,363 - #47 niz
+INFO  02:34:15,363 - #9 [
+INFO  02:34:15,363 - #48 2
+INFO  02:34:15,364 - #10 ]
+INFO  02:34:15,364 - #14 )
+INFO  02:34:15,364 - #7 ;
+INFO  02:34:15,364 - #47 nizch
+INFO  02:34:15,364 - #6 =
+INFO  02:34:15,364 - #30 new
+INFO  02:34:15,364 - #47 char
+INFO  02:34:15,364 - #9 [
+INFO  02:34:15,364 - #48 3
+INFO  02:34:15,364 - #10 ]
+INFO  02:34:15,365 - #7 ;
+INFO  02:34:15,365 - #47 nizch
+INFO  02:34:15,365 - #9 [
+INFO  02:34:15,365 - #48 0
+INFO  02:34:15,365 - #10 ]
+INFO  02:34:15,365 - #6 =
+INFO  02:34:15,365 - #50 a
+INFO  02:34:15,365 - #7 ;
+INFO  02:34:15,365 - #47 nizch
+INFO  02:34:15,365 - #9 [
+INFO  02:34:15,366 - #47 jedan
+INFO  02:34:15,366 - #10 ]
+INFO  02:34:15,366 - #6 =
+INFO  02:34:15,366 - #50 b
+INFO  02:34:15,366 - #7 ;
+INFO  02:34:15,366 - #47 nizch
+INFO  02:34:15,366 - #9 [
+INFO  02:34:15,366 - #47 pet
+INFO  02:34:15,366 - #29 -
+INFO  02:34:15,366 - #48 3
+INFO  02:34:15,367 - #10 ]
+INFO  02:34:15,367 - #6 =
+INFO  02:34:15,367 - #50 c
+INFO  02:34:15,367 - #7 ;
+INFO  02:34:15,368 - #22 print
+INFO  02:34:15,368 - #13 (
+INFO  02:34:15,368 - #47 nizch
+INFO  02:34:15,368 - #9 [
+INFO  02:34:15,368 - #48 1
+INFO  02:34:15,368 - #10 ]
+INFO  02:34:15,368 - #14 )
+INFO  02:34:15,368 - #7 ;
+INFO  02:34:15,368 - #22 print
+INFO  02:34:15,368 - #13 (
+INFO  02:34:15,368 - #47 nizch
+INFO  02:34:15,369 - #9 [
+INFO  02:34:15,369 - #47 jedan
+INFO  02:34:15,369 - #39 *
+INFO  02:34:15,369 - #48 2
+INFO  02:34:15,369 - #10 ]
+INFO  02:34:15,369 - #14 )
+INFO  02:34:15,369 - #7 ;
+INFO  02:34:15,369 - #47 bodovi
+INFO  02:34:15,369 - #6 =
+INFO  02:34:15,369 - #47 bodovi
+INFO  02:34:15,369 - #38 +
+INFO  02:34:15,369 - #13 (
+INFO  02:34:15,370 - #47 pet
+INFO  02:34:15,370 - #39 *
+INFO  02:34:15,370 - #47 jedan
+INFO  02:34:15,370 - #29 -
+INFO  02:34:15,370 - #48 1
+INFO  02:34:15,370 - #14 )
+INFO  02:34:15,370 - #39 *
+INFO  02:34:15,370 - #47 bodovi
+INFO  02:34:15,370 - #29 -
+INFO  02:34:15,370 - #13 (
+INFO  02:34:15,371 - #48 3
+INFO  02:34:15,371 - #41 %
+INFO  02:34:15,371 - #48 2
+INFO  02:34:15,371 - #38 +
+INFO  02:34:15,371 - #48 3
+INFO  02:34:15,371 - #39 *
+INFO  02:34:15,371 - #48 2
+INFO  02:34:15,372 - #29 -
+INFO  02:34:15,372 - #48 3
+INFO  02:34:15,372 - #14 )
+INFO  02:34:15,372 - #7 ;
+INFO  02:34:15,372 - #22 print
+INFO  02:34:15,372 - #13 (
+INFO  02:34:15,372 - #47 bodovi
+INFO  02:34:15,372 - #14 )
+INFO  02:34:15,373 - #7 ;
+INFO  02:34:15,373 - #45 read
+INFO  02:34:15,373 - #13 (
+INFO  02:34:15,373 - #47 bodovi
+INFO  02:34:15,373 - #14 )
+INFO  02:34:15,373 - #7 ;
+INFO  02:34:15,373 - #22 print
+INFO  02:34:15,373 - #13 (
+INFO  02:34:15,373 - #47 bodovi
+INFO  02:34:15,374 - #14 )
+INFO  02:34:15,374 - #7 ;
+INFO  02:34:15,374 - #47 bodovi
+INFO  02:34:15,374 - #25 ++
+INFO  02:34:15,374 - #7 ;
+INFO  02:34:15,374 - #23 goto
+INFO  02:34:15,374 - #47 labela1
+INFO  02:34:15,374 - #7 ;
+INFO  02:34:15,375 - #47 bodovi
+INFO  02:34:15,375 - #6 =
+INFO  02:34:15,375 - #47 bodovi
+INFO  02:34:15,376 - #39 *
+INFO  02:34:15,376 - #48 2
+INFO  02:34:15,376 - #7 ;
+INFO  02:34:15,376 - #47 bodovi
+INFO  02:34:15,376 - #26 --
+INFO  02:34:15,376 - #7 ;
+INFO  02:34:15,376 - #47 labela1
+INFO  02:34:15,376 - #42 :
+INFO  02:34:15,376 - #47 bodovi
+INFO  02:34:15,376 - #6 =
+INFO  02:34:15,376 - #47 bodovi
+INFO  02:34:15,376 - #38 +
+INFO  02:34:15,376 - #48 3
+INFO  02:34:15,376 - #7 ;
+INFO  02:34:15,377 - #22 print
+INFO  02:34:15,377 - #13 (
+INFO  02:34:15,377 - #47 bodovi
+INFO  02:34:15,377 - #14 )
+INFO  02:34:15,377 - #7 ;
+INFO  02:34:15,377 - #23 goto
+INFO  02:34:15,377 - #47 labelaminus
+INFO  02:34:15,377 - #7 ;
+INFO  02:34:15,377 - #22 print
+INFO  02:34:15,377 - #13 (
+INFO  02:34:15,377 - #50 +
+INFO  02:34:15,378 - #14 )
+INFO  02:34:15,378 - #7 ;
+INFO  02:34:15,378 - #47 labelaminus
+INFO  02:34:15,378 - #42 :
+INFO  02:34:15,378 - #22 print
+INFO  02:34:15,378 - #13 (
+INFO  02:34:15,379 - #50 -
+INFO  02:34:15,379 - #14 )
+INFO  02:34:15,379 - #7 ;
+INFO  02:34:15,379 - #4 }
+INFO  02:34:15,379 - #4 }
+INFO  02:34:15,386 - ===================================
+ERROR 02:34:15,388 - Greska na liniji 16 : ime bodovi nije deklarisano!
+ERROR 02:34:15,389 - Greska na liniji 17 : ime bodovi nije deklarisano!
+ERROR 02:34:15,389 - Greska na liniji 18 : ime bodovi nije deklarisano!
+ERROR 02:34:15,389 - Greska na liniji 18 : ime bodovi nije deklarisano!
+ERROR 02:34:15,389 - Greska na liniji 19 : ime bodovi nije deklarisano!
+ERROR 02:34:15,389 - Greska na liniji 19 : ime bodovi nije deklarisano!
+ERROR 02:34:15,389 - Greska na liniji 20 : ime bodovi nije deklarisano!
+ERROR 02:34:15,389 - Greska na liniji 21 : ime bodovi nije deklarisano!
+ERROR 02:34:15,389 - Greska na liniji 24 : ime niz nije deklarisano!
+ERROR 02:34:15,389 - Greska na liniji 25 : ime niz nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 26 : ime niz nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 27 : ime niz nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 27 : ime niz nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 27 : ime niz nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 27 : ime niz nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 28 : ime bodovi nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 28 : ime niz nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 28 : ime niz nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 29 : ime bodovi nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 30 : ime niz nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 33 : ime nizch nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 34 : ime nizch nije deklarisano!
+ERROR 02:34:15,390 - Greska na liniji 35 : ime nizch nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 36 : ime nizch nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 37 : ime nizch nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 38 : ime nizch nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 41 : ime bodovi nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 41 : ime bodovi nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 41 : ime bodovi nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 42 : ime bodovi nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 44 : ime bodovi nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 45 : ime bodovi nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 47 : ime bodovi nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 49 : ime bodovi nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 49 : ime bodovi nije deklarisano!
+ERROR 02:34:15,391 - Greska na liniji 50 : ime bodovi nije deklarisano!
+ERROR 02:34:15,392 - Greska na liniji 52 : ime bodovi nije deklarisano!
+ERROR 02:34:15,392 - Greska na liniji 52 : ime bodovi nije deklarisano!
+ERROR 02:34:15,392 - Greska na liniji 53 : ime bodovi nije deklarisano!
+INFO  02:34:15,392 -  Print count calls = 0
+INFO  02:34:15,392 -  Deklarisanih promenljivih ima = 0
+INFO  02:34:15,392 - ===================================
+ERROR 02:34:15,393 - Parsiranje NIJE uspesno zavrseno!

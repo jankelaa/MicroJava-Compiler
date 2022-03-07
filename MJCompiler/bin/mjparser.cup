@@ -1,0 +1,225 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, LBRACE, RBRACE, CONST, ASSIGN, SEMI, COMMA;
+terminal LBRACKET, RBRACKET, CLASS, EXTENDS, LPAREN, RPAREN, VOID, IF, DO, WHILE, BREAK, CONTINUE, RETURN, PRINT;
+terminal GOTO, ELSE, INC, DEC, OR, AND, MINUS, NEW, DOT, EQUAL, UNEQUAL, GTHAN, GETHAN, LTHAN, LETHAN, PLUS, MUL;
+terminal DIV, MOD, COLON, SUPER, ENUM, READ, THIS;
+
+terminal String IDENT;
+terminal Integer NUM_CONST;
+terminal Integer BOOL_CONST;
+terminal Character CHAR_CONST;
+
+nonterminal Program, ConstVarList, MethodDeclList, ConstDecl, ConstOne, VarDecl, VarOne, ConstDeclType;
+nonterminal ConstDeclList, BracketOption, VarDeclOption, VarDeclList;
+nonterminal StatementList, Statement;
+nonterminal SingleStatement, Statements, Label;
+nonterminal DesignatorStatement, MethodDecl;
+nonterminal Addop, Mulop;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, MethodVoidName, Designator, DesignatorArrayName;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, Term, Factor;
+
+Program ::= (Program) PROG ProgName ConstVarList LBRACE MethodDeclList RBRACE;
+
+ProgName ::= (ProgName) IDENT;
+
+ConstVarList ::= (ConstDeclarations) ConstVarList ConstDecl
+					|
+					(VarDeclarations) ConstVarList VarDecl
+					|
+					(NoConstVarDeclaration) /* epsilon */
+					;
+					
+ConstDecl ::= (ConstDecl) CONST Type ConstOne ConstDeclList SEMI;
+
+ConstOne ::= (ConstOne) IDENT ASSIGN ConstDeclType;
+
+ConstDeclType ::= (ConstNumDecl) NUM_CONST
+				|
+				(ConstCharDecl) CHAR_CONST
+				|
+				(ConstBoolDecl) BOOL_CONST
+				;
+					
+ConstDeclList ::= (YesConstDeclList) ConstDeclList COMMA ConstOne
+				|
+				(NoConstDeclList) /* epsilon */
+				;
+						
+VarDecl ::= (VarDeclaration) Type VarOne VarDeclOption SEMI
+			|
+			(ErrorVarDecl) error:l SEMI
+			{: parser.report_error("(Greska u definisanju promenljive) VarDecl. Izvrsen oporavak do ; u liniji " + lleft, l); :}
+			;				
+
+VarOne ::= (VarOne) IDENT BracketOption;
+			
+VarDeclOption ::= (YesVarDeclOption) VarDeclOption COMMA VarOne
+				|
+				(ErrorVarDeclOptionSemi) error:l SEMI
+				{: parser.report_error("(Greska u definisanju promenljive) VarDecl. Izvrsen oporavak do ; u liniji " + lleft, l); :}
+				|
+				(ErrorVarDeclOptionComma) error:l COMMA
+				{: parser.report_error("(Greska u definisanju promenljive) VarDeclOption. Izvrsen oporavak do , u liniji " + lleft, l); :}
+				|
+				(NoVarDeclOption) /* epsilon */
+				;						
+				
+BracketOption ::= (YesBracketOption) LBRACKET RBRACKET
+				|
+				(NoBracketOption) /* epsilon */
+				;	
+
+VarDeclList ::= (YesVarDeclList) VarDeclList VarDecl
+			|
+			(NoVarDeclList) /* epsilon */
+			;
+						
+MethodDeclList ::= (YesMethodDeclList) MethodDeclList MethodDecl
+				|
+				(NoMethodDecl) /* epsilon */
+				;						
+						
+MethodDecl ::= (MethodDecl) VOID MethodVoidName LPAREN RPAREN VarDeclList LBRACE StatementList RBRACE;
+
+MethodVoidName ::= (MethodVoidName) IDENT;	
+		
+Type ::= (Type) IDENT;		
+
+StatementList ::= (YesStatementList) StatementList Statement
+				|
+				(NoStatementList) /* epsilon */
+				;	
+				
+Statement ::= (StatementSingleLabel) Label COLON SingleStatement
+			|
+			(StatementSingleNoLabel) SingleStatement
+			|
+			(StatementMany) Statements
+			;
+			
+SingleStatement ::= (SingleStmDesignator) DesignatorStatement SEMI
+				|
+				(Read) READ LPAREN Designator RPAREN SEMI
+				|
+				(PrintNumConst) PRINT LPAREN Expr COMMA NUM_CONST RPAREN SEMI
+				|
+				(PrintNoNumConst) PRINT LPAREN Expr RPAREN SEMI
+				|
+				(GoTo) GOTO Label SEMI
+				;												
+					
+Statements ::= (Statements) LBRACE StatementList RBRACE;			
+				
+DesignatorStatement ::=	(Assign) Designator ASSIGN Expr
+					|
+					(INC) Designator INC
+					|
+					(DEC) Designator DEC
+					|
+					(ErrorDesignatorStatement) error:l SEMI
+					{: parser.report_error("Greska u iskazu dodele: DesignatorStatement. Izvrsen oporavak do ; u liniji " + lleft, l); :}
+					;			
+		
+Expr ::= (ExprMore) Expr Addop Term
+		|
+		(ExprMinus) MINUS Term
+		|
+		(ExprNoMinus) Term		
+		|
+		(ErrorExpr) error:l SEMI
+		{: parser.report_error("(Greska u iskazu dodele) [Expr] Izvrsen oporavak do ; u liniji " + lleft, l); :}
+		;										
+				
+Term ::= (TermFactor) Factor
+		|
+		(TermMulopFactor) Term Mulop Factor
+		;
+		
+Factor ::= (FactorDesignator) Designator
+		|
+		(NUM_CONST) NUM_CONST
+		|
+		(CHAR_CONST) CHAR_CONST
+		|
+		(BOOL_CONST) BOOL_CONST
+		|
+		(FactorExpr) LPAREN Expr RPAREN
+		|
+		(NewTypeExpr) NEW Type LBRACKET Expr RBRACKET
+		;
+		
+Designator ::= (DesignatorIdent) IDENT
+			|
+			(DesignatorIdentExpr) DesignatorArrayName LBRACKET Expr RBRACKET
+			;
+			
+DesignatorArrayName ::= (DesignatorArrayName) IDENT;
+
+Label ::= (Label) IDENT;
+
+Addop ::= (AddopPLUS) PLUS
+		|
+		(AddopMINUS) MINUS
+		;
+			
+Mulop ::= (MulopMUL) MUL
+		|
+		(MulopDIV) DIV
+		|
+		(MulopMOD) MOD
+		;	
+				
+				
+				

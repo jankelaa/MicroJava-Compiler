@@ -1,0 +1,39 @@
+INFO  18:46:02,768 - Compiling source file: D:\PP1\2. Sintaksna analiza\workspace\MJCompiler\test\program.mj
+INFO  18:46:02,812 - #2 program
+INFO  18:46:02,812 - #3 mojProgram
+INFO  18:46:02,812 - #3 int
+INFO  18:46:02,813 - #3 a
+INFO  18:46:02,814 - #12 ,
+INFO  18:46:02,816 - #3 b
+INFO  18:46:02,816 - #12 ,
+INFO  18:46:02,816 - #3 c
+INFO  18:46:02,816 - #11 ;
+INFO  18:46:02,816 - #4 {
+INFO  18:46:02,817 - #5 }
+INFO  18:46:02,819 - Program(
+  VarDeclarations(
+    NoConstVarClassDeclaration(
+    ) [NoConstVarClassDeclaration]
+    VarDecl(
+      Type(
+      ) [Type]
+      NoBracketOption(
+      ) [NoBracketOption]
+      YesVarDeclOption(
+        YesVarDeclOption(
+          NoVarDeclOption(
+          ) [NoVarDeclOption]
+          NoBracketOption(
+          ) [NoBracketOption]
+        ) [YesVarDeclOption]
+        NoBracketOption(
+        ) [NoBracketOption]
+      ) [YesVarDeclOption]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  18:46:02,820 - ===================================
+INFO  18:46:02,821 -  Print count calls = 0
+INFO  18:46:02,821 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,15 @@
+INFO  00:52:05,430 - Compiling source file: D:\PP1\2. Sintaksna analiza - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  00:52:05,464 - #2 program
+INFO  00:52:05,465 - #3 p
+INFO  00:52:05,465 - #3 int
+INFO  00:52:05,466 - #3 a
+INFO  00:52:05,467 - #12 ,
+INFO  00:52:05,468 - #3 b
+INFO  00:52:05,468 - #11 ;
+INFO  00:52:05,469 - #3 char
+INFO  00:52:05,469 - #3 c
+INFO  00:52:05,469 - #11 ;
+INFO  00:52:05,470 - #4 {
+INFO  00:52:05,470 - #5 }
+INFO  00:52:05,471 - ===================================
+INFO  00:52:05,472 - PARSIRANJE IZVRSENO DO KRAJA

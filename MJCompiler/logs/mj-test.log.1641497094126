@@ -1,0 +1,36 @@
+INFO  20:24:30,812 - Compiling source file: D:\PP1\2. Sintaksna analiza\workspace\MJCompiler\test\program.mj
+INFO  20:24:30,853 - #2 program
+INFO  20:24:30,854 - #3 p
+INFO  20:24:30,854 - #6 const
+INFO  20:24:30,854 - #3 int
+INFO  20:24:30,854 - #3 size
+INFO  20:24:30,855 - #7 =
+INFO  20:24:30,855 - #8 10
+INFO  20:24:30,855 - #11 ;
+INFO  20:24:30,856 - #15 class
+INFO  20:24:30,856 - #3 Table
+INFO  20:24:30,856 - #4 {
+INFO  20:24:30,857 - #3 int
+INFO  20:24:30,857 - #3 pos
+INFO  20:24:30,857 - #13 [
+INFO  20:24:30,857 - #14 ]
+INFO  20:24:30,858 - #12 ,
+INFO  20:24:30,859 - #3 neg
+INFO  20:24:30,859 - #13 [
+INFO  20:24:30,859 - #14 ]
+INFO  20:24:30,859 - #11 ;
+INFO  20:24:30,859 - #4 {
+INFO  20:24:30,860 - #19 void
+INFO  20:24:30,861 - #3 putp
+INFO  20:24:30,861 - #17 (
+INFO  20:24:30,861 - #3 int
+INFO  20:24:30,861 - #3 a
+INFO  20:24:30,861 - #12 ,
+INFO  20:24:30,862 - #3 int
+INFO  20:24:30,862 - #3 idx
+INFO  20:24:30,862 - #18 )
+INFO  20:24:30,863 - #4 {
+INFO  20:24:30,863 - #50 this
+ERROR 20:24:30,863 - 
+Sintaksna greska na liniji 7
+ERROR 20:24:30,863 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

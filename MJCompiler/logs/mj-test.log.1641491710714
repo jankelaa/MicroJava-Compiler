@@ -1,0 +1,30 @@
+INFO  18:54:45,880 - Compiling source file: D:\PP1\2. Sintaksna analiza\workspace\MJCompiler\test\program.mj
+INFO  18:54:45,919 - #2 program
+INFO  18:54:45,920 - #3 p
+INFO  18:54:45,920 - #6 const
+INFO  18:54:45,920 - #3 int
+INFO  18:54:45,920 - #3 size
+INFO  18:54:45,921 - #7 =
+INFO  18:54:45,921 - #8 10
+INFO  18:54:45,921 - #11 ;
+INFO  18:54:45,922 - #15 class
+INFO  18:54:45,922 - #3 Table
+INFO  18:54:45,923 - #4 {
+INFO  18:54:45,923 - #3 int
+INFO  18:54:45,924 - #3 pos
+INFO  18:54:45,924 - #13 [
+INFO  18:54:45,924 - #14 ]
+INFO  18:54:45,924 - #12 ,
+INFO  18:54:45,926 - #3 neg
+INFO  18:54:45,926 - #13 [
+INFO  18:54:45,926 - #14 ]
+INFO  18:54:45,926 - #11 ;
+INFO  18:54:45,926 - #4 {
+INFO  18:54:45,927 - #5 }
+INFO  18:54:45,928 - #5 }
+INFO  18:54:45,929 - #3 record
+INFO  18:54:45,929 - #3 Board
+INFO  18:54:45,929 - #4 {
+ERROR 18:54:45,930 - 
+Sintaksna greska na liniji 8
+ERROR 18:54:45,930 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8

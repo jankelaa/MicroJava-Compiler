@@ -1,0 +1,14 @@
+1. Window->preferences:
+	Java->Compiler : 1.8
+	Java->Installed JREs: jdk 1.8 
+
+2. Run configurations...
+
+new->Main:
+	Name: readTest
+	Project: MJCompiler
+	Main class:
+		rs.etf.pp1.mj.runtime.Run
+->Arguments:
+	test/program.obj
+	

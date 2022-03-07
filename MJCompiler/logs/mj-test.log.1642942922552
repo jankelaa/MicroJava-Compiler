@@ -1,0 +1,24 @@
+INFO  14:01:10,670 - Compiling source file: D:\PP1\4. Generisanje koda - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  14:01:10,698 - #2 program
+INFO  14:01:10,698 - #47 test301
+INFO  14:01:10,698 - #3 {
+INFO  14:01:10,700 - #15 void
+INFO  14:01:10,700 - #47 main
+INFO  14:01:10,700 - #13 (
+INFO  14:01:10,701 - #14 )
+INFO  14:01:10,701 - #3 {
+INFO  14:01:10,702 - #22 print
+INFO  14:01:10,703 - #13 (
+INFO  14:01:10,703 - #48 1
+INFO  14:01:10,703 - #14 )
+INFO  14:01:10,703 - #7 ;
+INFO  14:01:10,703 - #22 print
+INFO  14:01:10,704 - #13 (
+INFO  14:01:10,704 - #48 2
+INFO  14:01:10,704 - #14 )
+INFO  14:01:10,704 - #7 ;
+INFO  14:01:10,705 - #4 }
+INFO  14:01:10,705 - #4 }
+INFO  14:01:10,711 - ===================================
+INFO  14:01:10,713 - ===================================
+INFO  14:01:10,716 - Parsiranje uspesno zavrseno!

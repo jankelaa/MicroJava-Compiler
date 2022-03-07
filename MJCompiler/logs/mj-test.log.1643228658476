@@ -1,0 +1,180 @@
+INFO  21:23:10,524 - Compiling source file: D:\PP1\4. Generisanje koda - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  21:23:10,564 - #2 program
+INFO  21:23:10,565 - #47 test301
+INFO  21:23:10,565 - #3 {
+INFO  21:23:10,566 - #15 void
+INFO  21:23:10,566 - #47 main
+INFO  21:23:10,567 - #13 (
+INFO  21:23:10,567 - #14 )
+INFO  21:23:10,567 - #47 int
+INFO  21:23:10,568 - #47 a
+INFO  21:23:10,568 - #9 [
+INFO  21:23:10,568 - #10 ]
+INFO  21:23:10,569 - #7 ;
+INFO  21:23:10,570 - #3 {
+INFO  21:23:10,571 - #47 a
+INFO  21:23:10,571 - #6 =
+INFO  21:23:10,571 - #30 new
+INFO  21:23:10,572 - #47 int
+INFO  21:23:10,572 - #9 [
+INFO  21:23:10,572 - #48 5
+INFO  21:23:10,572 - #10 ]
+INFO  21:23:10,572 - #7 ;
+INFO  21:23:10,573 - #47 a
+INFO  21:23:10,574 - #9 [
+INFO  21:23:10,575 - #48 0
+INFO  21:23:10,575 - #10 ]
+INFO  21:23:10,575 - #6 =
+INFO  21:23:10,575 - #48 1
+INFO  21:23:10,575 - #7 ;
+INFO  21:23:10,575 - #47 a
+INFO  21:23:10,575 - #9 [
+INFO  21:23:10,575 - #48 0
+INFO  21:23:10,575 - #10 ]
+INFO  21:23:10,575 - #26 --
+INFO  21:23:10,576 - #7 ;
+INFO  21:23:10,576 - #22 print
+INFO  21:23:10,576 - #13 (
+INFO  21:23:10,576 - #47 a
+INFO  21:23:10,576 - #9 [
+INFO  21:23:10,576 - #48 0
+INFO  21:23:10,576 - #10 ]
+INFO  21:23:10,576 - #14 )
+INFO  21:23:10,577 - #7 ;
+INFO  21:23:10,578 - #4 }
+INFO  21:23:10,578 - #4 }
+INFO  21:23:10,586 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoConstVarDeclaration(
+  ) [NoConstVarDeclaration]
+  YesMethodDeclList(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      YesVarDeclList(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarOne(
+           a
+            YesBracketOption(
+            ) [YesBracketOption]
+          ) [VarOne]
+          NoVarDeclOption(
+          ) [NoVarDeclOption]
+        ) [VarDeclaration]
+      ) [YesVarDeclList]
+      YesStatementList(
+        YesStatementList(
+          YesStatementList(
+            YesStatementList(
+              NoStatementList(
+              ) [NoStatementList]
+              StatementSingleNoLabel(
+                SingleStmDesignator(
+                  Assign(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                    ExprNoMinus(
+                      TermFactor(
+                        NewTypeExpr(
+                          Type(
+                           int
+                          ) [Type]
+                          ExprNoMinus(
+                            TermFactor(
+                              NUM_CONST(
+                               5
+                              ) [NUM_CONST]
+                            ) [TermFactor]
+                          ) [ExprNoMinus]
+                        ) [NewTypeExpr]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                  ) [Assign]
+                ) [SingleStmDesignator]
+              ) [StatementSingleNoLabel]
+            ) [YesStatementList]
+            StatementSingleNoLabel(
+              SingleStmDesignator(
+                Assign(
+                  DesignatorIdentExpr(
+                    DesignatorArrayName(
+                     a
+                    ) [DesignatorArrayName]
+                    ExprNoMinus(
+                      TermFactor(
+                        NUM_CONST(
+                         0
+                        ) [NUM_CONST]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                  ) [DesignatorIdentExpr]
+                  ExprNoMinus(
+                    TermFactor(
+                      NUM_CONST(
+                       1
+                      ) [NUM_CONST]
+                    ) [TermFactor]
+                  ) [ExprNoMinus]
+                ) [Assign]
+              ) [SingleStmDesignator]
+            ) [StatementSingleNoLabel]
+          ) [YesStatementList]
+          StatementSingleNoLabel(
+            SingleStmDesignator(
+              DEC(
+                DesignatorIdentExpr(
+                  DesignatorArrayName(
+                   a
+                  ) [DesignatorArrayName]
+                  ExprNoMinus(
+                    TermFactor(
+                      NUM_CONST(
+                       0
+                      ) [NUM_CONST]
+                    ) [TermFactor]
+                  ) [ExprNoMinus]
+                ) [DesignatorIdentExpr]
+              ) [DEC]
+            ) [SingleStmDesignator]
+          ) [StatementSingleNoLabel]
+        ) [YesStatementList]
+        StatementSingleNoLabel(
+          PrintNoNumConst(
+            ExprNoMinus(
+              TermFactor(
+                FactorDesignator(
+                  DesignatorIdentExpr(
+                    DesignatorArrayName(
+                     a
+                    ) [DesignatorArrayName]
+                    ExprNoMinus(
+                      TermFactor(
+                        NUM_CONST(
+                         0
+                        ) [NUM_CONST]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                  ) [DesignatorIdentExpr]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprNoMinus]
+          ) [PrintNoNumConst]
+        ) [StatementSingleNoLabel]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [YesMethodDeclList]
+) [Program]
+INFO  21:23:10,587 - ===================================
+INFO  21:23:10,589 - ===================================
+INFO  21:23:10,598 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,27 @@
+INFO  00:57:00,688 - Compiling source file: D:\PP1\3. Semanticka analiza - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  00:57:00,720 - #2 program
+INFO  00:57:00,720 - #47 test301
+INFO  00:57:00,720 - #5 const
+INFO  00:57:00,722 - #47 int
+INFO  00:57:00,722 - #47 nula
+INFO  00:57:00,722 - #6 =
+INFO  00:57:00,723 - #48 0
+INFO  00:57:00,723 - #7 ;
+INFO  00:57:00,723 - #5 const
+INFO  00:57:00,724 - #47 int
+INFO  00:57:00,724 - #47 jedan
+INFO  00:57:00,725 - #6 =
+INFO  00:57:00,725 - #48 1
+INFO  00:57:00,725 - #7 ;
+INFO  00:57:00,725 - #5 const
+INFO  00:57:00,725 - #47 int
+INFO  00:57:00,726 - #47 pet
+INFO  00:57:00,726 - #6 =
+INFO  00:57:00,726 - #48 5
+INFO  00:57:00,727 - #7 ;
+INFO  00:57:00,727 - #5 const
+INFO  00:57:00,728 - #47 char
+INFO  00:57:00,728 - #47 c
+INFO  00:57:00,728 - #6 =
+INFO  00:57:00,728 - #49 true
+INFO  00:57:00,728 - #7 ;

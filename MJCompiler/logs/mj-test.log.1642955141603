@@ -1,0 +1,53 @@
+INFO  17:25:21,243 - Compiling source file: D:\PP1\4. Generisanje koda - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  17:25:21,273 - #2 program
+INFO  17:25:21,273 - #47 test301
+INFO  17:25:21,273 - #5 const
+INFO  17:25:21,274 - #47 char
+INFO  17:25:21,274 - #47 c
+INFO  17:25:21,275 - #6 =
+INFO  17:25:21,275 - #50 a
+INFO  17:25:21,275 - #7 ;
+INFO  17:25:21,276 - #47 int
+INFO  17:25:21,277 - #47 x
+INFO  17:25:21,277 - #7 ;
+INFO  17:25:21,279 - #3 {
+INFO  17:25:21,280 - #15 void
+INFO  17:25:21,281 - #47 main
+INFO  17:25:21,281 - #13 (
+INFO  17:25:21,282 - #14 )
+INFO  17:25:21,282 - #47 int
+INFO  17:25:21,282 - #47 x
+INFO  17:25:21,282 - #8 ,
+INFO  17:25:21,283 - #47 y
+INFO  17:25:21,283 - #7 ;
+INFO  17:25:21,283 - #47 int
+INFO  17:25:21,283 - #47 n
+INFO  17:25:21,283 - #9 [
+INFO  17:25:21,284 - #10 ]
+INFO  17:25:21,284 - #7 ;
+INFO  17:25:21,284 - #3 {
+INFO  17:25:21,285 - #22 print
+INFO  17:25:21,285 - #13 (
+INFO  17:25:21,285 - #48 1
+INFO  17:25:21,285 - #14 )
+INFO  17:25:21,286 - #7 ;
+INFO  17:25:21,286 - #47 n
+INFO  17:25:21,286 - #6 =
+INFO  17:25:21,286 - #30 new
+INFO  17:25:21,286 - #47 int
+INFO  17:25:21,286 - #9 [
+INFO  17:25:21,287 - #50 a
+INFO  17:25:21,287 - #10 ]
+INFO  17:25:21,287 - #7 ;
+INFO  17:25:21,287 - #22 print
+INFO  17:25:21,287 - #13 (
+INFO  17:25:21,287 - #47 x
+INFO  17:25:21,288 - #14 )
+INFO  17:25:21,288 - #7 ;
+INFO  17:25:21,288 - #4 }
+INFO  17:25:21,288 - #4 }
+INFO  17:25:21,294 - ===================================
+ERROR 17:25:21,296 - Indekser Expr pri kreiranju niza mora biti INT vrednost. na liniji 15
+ERROR 17:25:21,297 - Promenljiva i izraz moraju biti istog tipa pri ASSIGN dodeli vrednosti na liniji 15
+INFO  17:25:21,297 - ===================================
+ERROR 17:25:21,297 - Parsiranje NIJE uspesno zavrseno!

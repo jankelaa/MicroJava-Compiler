@@ -1,0 +1,36 @@
+INFO  00:54:31,882 - Compiling source file: D:\PP1\2. Sintaksna analiza - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  00:54:31,920 - #2 program
+INFO  00:54:31,920 - #3 p
+INFO  00:54:31,920 - #3 int
+INFO  00:54:31,921 - #3 a
+INFO  00:54:31,922 - #12 ,
+INFO  00:54:31,924 - #3 b
+INFO  00:54:31,924 - #11 ;
+INFO  00:54:31,925 - #3 char
+INFO  00:54:31,925 - #3 c
+INFO  00:54:31,925 - #11 ;
+INFO  00:54:31,925 - #6 const
+INFO  00:54:31,926 - #3 int
+INFO  00:54:31,926 - #3 x
+INFO  00:54:31,926 - #7 =
+INFO  00:54:31,926 - #8 5
+INFO  00:54:31,926 - #11 ;
+INFO  00:54:31,927 - #6 const
+INFO  00:54:31,927 - #3 char
+INFO  00:54:31,927 - #3 z
+INFO  00:54:31,928 - #7 =
+INFO  00:54:31,928 - #3 d
+ERROR 00:54:31,928 - 
+Sintaksna greska na liniji 6
+INFO  00:54:31,928 - #11 ;
+INFO  00:54:31,929 - #6 const
+INFO  00:54:31,929 - #3 bool
+INFO  00:54:31,929 - #3 uslov
+ERROR 00:54:31,929 - (Greska u definisanju promenljive) [VarDecl] Izvrsen oporavak do ; u liniji 8
+INFO  00:54:31,930 - #7 =
+INFO  00:54:31,930 - #10 true
+INFO  00:54:31,930 - #11 ;
+INFO  00:54:31,930 - #4 {
+INFO  00:54:31,931 - #5 }
+INFO  00:54:31,932 - ===================================
+INFO  00:54:31,932 - PARSIRANJE IZVRSENO DO KRAJA

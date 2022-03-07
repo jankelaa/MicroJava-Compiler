@@ -1,0 +1,33 @@
+INFO  00:54:58,394 - Compiling source file: D:\PP1\2. Sintaksna analiza - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  00:54:58,429 - #2 program
+INFO  00:54:58,429 - #3 p
+INFO  00:54:58,429 - #3 int
+INFO  00:54:58,430 - #3 a
+INFO  00:54:58,431 - #12 ,
+INFO  00:54:58,433 - #3 b
+INFO  00:54:58,433 - #11 ;
+INFO  00:54:58,433 - #3 char
+INFO  00:54:58,434 - #3 c
+INFO  00:54:58,434 - #11 ;
+INFO  00:54:58,434 - #6 const
+INFO  00:54:58,434 - #3 int
+INFO  00:54:58,434 - #3 x
+INFO  00:54:58,435 - #7 =
+INFO  00:54:58,435 - #8 5
+INFO  00:54:58,435 - #11 ;
+INFO  00:54:58,436 - #6 const
+INFO  00:54:58,437 - #3 char
+INFO  00:54:58,437 - #3 z
+INFO  00:54:58,437 - #7 =
+INFO  00:54:58,437 - #9 d
+INFO  00:54:58,437 - #11 ;
+INFO  00:54:58,438 - #6 const
+INFO  00:54:58,438 - #3 bool
+INFO  00:54:58,438 - #3 uslov
+INFO  00:54:58,438 - #7 =
+INFO  00:54:58,438 - #10 true
+INFO  00:54:58,439 - #11 ;
+INFO  00:54:58,439 - #4 {
+INFO  00:54:58,439 - #5 }
+INFO  00:54:58,440 - ===================================
+INFO  00:54:58,441 - PARSIRANJE IZVRSENO DO KRAJA

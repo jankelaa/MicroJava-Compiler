@@ -1,0 +1,54 @@
+INFO  15:16:59,940 - Compiling source file: D:\PP1\4. Generisanje koda - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  15:16:59,970 - #2 program
+INFO  15:16:59,970 - #47 test301
+INFO  15:16:59,970 - #5 const
+INFO  15:16:59,971 - #47 char
+INFO  15:16:59,972 - #47 c
+INFO  15:16:59,972 - #6 =
+INFO  15:16:59,972 - #50 a
+INFO  15:16:59,972 - #7 ;
+INFO  15:16:59,974 - #47 int
+INFO  15:16:59,975 - #47 x
+INFO  15:16:59,975 - #7 ;
+INFO  15:16:59,978 - #3 {
+INFO  15:16:59,978 - #15 void
+INFO  15:16:59,979 - #47 main
+INFO  15:16:59,979 - #13 (
+INFO  15:16:59,979 - #14 )
+INFO  15:16:59,979 - #47 int
+INFO  15:16:59,980 - #47 x
+INFO  15:16:59,980 - #8 ,
+INFO  15:16:59,980 - #47 y
+INFO  15:16:59,980 - #7 ;
+INFO  15:16:59,981 - #47 char
+INFO  15:16:59,981 - #47 z
+INFO  15:16:59,981 - #7 ;
+INFO  15:16:59,981 - #47 bool
+INFO  15:16:59,982 - #47 b
+INFO  15:16:59,982 - #7 ;
+INFO  15:16:59,982 - #3 {
+INFO  15:16:59,982 - #47 x
+INFO  15:16:59,982 - #6 =
+INFO  15:16:59,983 - #48 6
+INFO  15:16:59,983 - #7 ;
+INFO  15:16:59,983 - #47 z
+INFO  15:16:59,983 - #6 =
+INFO  15:16:59,984 - #47 zebra
+INFO  15:16:59,984 - #7 ;
+INFO  15:16:59,984 - #22 print
+INFO  15:16:59,984 - #13 (
+INFO  15:16:59,984 - #48 1
+INFO  15:16:59,984 - #14 )
+INFO  15:16:59,984 - #7 ;
+INFO  15:16:59,984 - #22 print
+INFO  15:16:59,984 - #13 (
+INFO  15:16:59,984 - #47 x
+INFO  15:16:59,985 - #14 )
+INFO  15:16:59,985 - #7 ;
+INFO  15:16:59,985 - #4 }
+INFO  15:16:59,985 - #4 }
+INFO  15:16:59,991 - ===================================
+ERROR 15:16:59,994 - Greska designatorIdent: zebra nije deklarisan! na liniji 13
+ERROR 15:16:59,994 - Promenljiva i izraz moraju biti istog tipa pri ASSIGN dodeli vrednosti na liniji 13
+INFO  15:16:59,995 - ===================================
+ERROR 15:16:59,995 - Parsiranje NIJE uspesno zavrseno!

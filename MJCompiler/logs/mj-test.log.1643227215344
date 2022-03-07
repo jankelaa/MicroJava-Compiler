@@ -1,0 +1,88 @@
+INFO  20:59:50,024 - Compiling source file: D:\PP1\4. Generisanje koda - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  20:59:50,092 - #2 program
+INFO  20:59:50,092 - #47 test301
+INFO  20:59:50,092 - #47 bool
+INFO  20:59:50,095 - #47 b
+INFO  20:59:50,096 - #9 [
+INFO  20:59:50,096 - #10 ]
+INFO  20:59:50,097 - #7 ;
+INFO  20:59:50,100 - #3 {
+INFO  20:59:50,100 - #15 void
+INFO  20:59:50,101 - #47 main
+INFO  20:59:50,101 - #13 (
+INFO  20:59:50,101 - #14 )
+INFO  20:59:50,101 - #3 {
+INFO  20:59:50,102 - #47 b
+INFO  20:59:50,102 - #6 =
+INFO  20:59:50,103 - #30 new
+INFO  20:59:50,103 - #47 bool
+INFO  20:59:50,103 - #9 [
+INFO  20:59:50,103 - #48 8
+INFO  20:59:50,103 - #10 ]
+INFO  20:59:50,103 - #7 ;
+INFO  20:59:50,104 - #4 }
+INFO  20:59:50,105 - #4 }
+INFO  20:59:50,113 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    NoConstVarDeclaration(
+    ) [NoConstVarDeclaration]
+    VarDeclaration(
+      Type(
+       bool
+      ) [Type]
+      VarOne(
+       b
+        YesBracketOption(
+        ) [YesBracketOption]
+      ) [VarOne]
+      NoVarDeclOption(
+      ) [NoVarDeclOption]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  YesMethodDeclList(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      YesStatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        StatementSingleNoLabel(
+          SingleStmDesignator(
+            Assign(
+              DesignatorIdent(
+               b
+              ) [DesignatorIdent]
+              ExprNoMinus(
+                TermFactor(
+                  NewTypeExpr(
+                    Type(
+                     bool
+                    ) [Type]
+                    ExprNoMinus(
+                      TermFactor(
+                        NUM_CONST(
+                         8
+                        ) [NUM_CONST]
+                      ) [TermFactor]
+                    ) [ExprNoMinus]
+                  ) [NewTypeExpr]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+            ) [Assign]
+          ) [SingleStmDesignator]
+        ) [StatementSingleNoLabel]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [YesMethodDeclList]
+) [Program]
+INFO  20:59:50,114 - ===================================
+INFO  20:59:50,116 - ===================================
+INFO  20:59:50,124 - Parsiranje uspesno zavrseno!

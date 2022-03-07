@@ -1,0 +1,122 @@
+INFO  21:00:15,352 - Compiling source file: D:\PP1\4. Generisanje koda - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  21:00:15,405 - #2 program
+INFO  21:00:15,406 - #47 test301
+INFO  21:00:15,406 - #47 bool
+INFO  21:00:15,410 - #47 b
+INFO  21:00:15,410 - #9 [
+INFO  21:00:15,410 - #10 ]
+INFO  21:00:15,411 - #7 ;
+INFO  21:00:15,415 - #3 {
+INFO  21:00:15,415 - #15 void
+INFO  21:00:15,416 - #47 main
+INFO  21:00:15,417 - #13 (
+INFO  21:00:15,417 - #14 )
+INFO  21:00:15,418 - #3 {
+INFO  21:00:15,418 - #47 b
+INFO  21:00:15,419 - #6 =
+INFO  21:00:15,420 - #30 new
+INFO  21:00:15,420 - #47 bool
+INFO  21:00:15,420 - #9 [
+INFO  21:00:15,420 - #48 8
+INFO  21:00:15,420 - #10 ]
+INFO  21:00:15,421 - #7 ;
+INFO  21:00:15,422 - #47 b
+INFO  21:00:15,423 - #9 [
+INFO  21:00:15,424 - #48 0
+INFO  21:00:15,424 - #10 ]
+INFO  21:00:15,424 - #6 =
+INFO  21:00:15,424 - #49 1
+INFO  21:00:15,424 - #7 ;
+INFO  21:00:15,425 - #4 }
+INFO  21:00:15,425 - #4 }
+INFO  21:00:15,440 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    NoConstVarDeclaration(
+    ) [NoConstVarDeclaration]
+    VarDeclaration(
+      Type(
+       bool
+      ) [Type]
+      VarOne(
+       b
+        YesBracketOption(
+        ) [YesBracketOption]
+      ) [VarOne]
+      NoVarDeclOption(
+      ) [NoVarDeclOption]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  YesMethodDeclList(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      YesStatementList(
+        YesStatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          StatementSingleNoLabel(
+            SingleStmDesignator(
+              Assign(
+                DesignatorIdent(
+                 b
+                ) [DesignatorIdent]
+                ExprNoMinus(
+                  TermFactor(
+                    NewTypeExpr(
+                      Type(
+                       bool
+                      ) [Type]
+                      ExprNoMinus(
+                        TermFactor(
+                          NUM_CONST(
+                           8
+                          ) [NUM_CONST]
+                        ) [TermFactor]
+                      ) [ExprNoMinus]
+                    ) [NewTypeExpr]
+                  ) [TermFactor]
+                ) [ExprNoMinus]
+              ) [Assign]
+            ) [SingleStmDesignator]
+          ) [StatementSingleNoLabel]
+        ) [YesStatementList]
+        StatementSingleNoLabel(
+          SingleStmDesignator(
+            Assign(
+              DesignatorIdentExpr(
+                DesignatorArrayName(
+                 b
+                ) [DesignatorArrayName]
+                ExprNoMinus(
+                  TermFactor(
+                    NUM_CONST(
+                     0
+                    ) [NUM_CONST]
+                  ) [TermFactor]
+                ) [ExprNoMinus]
+              ) [DesignatorIdentExpr]
+              ExprNoMinus(
+                TermFactor(
+                  BOOL_CONST(
+                   1
+                  ) [BOOL_CONST]
+                ) [TermFactor]
+              ) [ExprNoMinus]
+            ) [Assign]
+          ) [SingleStmDesignator]
+        ) [StatementSingleNoLabel]
+      ) [YesStatementList]
+    ) [MethodDecl]
+  ) [YesMethodDeclList]
+) [Program]
+INFO  21:00:15,442 - ===================================
+INFO  21:00:15,449 - ===================================
+INFO  21:00:15,465 - Parsiranje uspesno zavrseno!

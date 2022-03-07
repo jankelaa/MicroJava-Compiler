@@ -1,0 +1,14 @@
+INFO  17:17:21,104 - Compiling source file: D:\PP1\4. Generisanje koda - NIVO A\workspace\MJCompiler\test\program.mj
+INFO  17:17:21,137 - #2 program
+INFO  17:17:21,137 - #47 test301
+INFO  17:17:21,138 - #3 {
+INFO  17:17:21,140 - #15 void
+INFO  17:17:21,141 - #47 main
+INFO  17:17:21,141 - #13 (
+INFO  17:17:21,142 - #14 )
+INFO  17:17:21,142 - #3 {
+INFO  17:17:21,143 - #4 }
+INFO  17:17:21,144 - #4 }
+INFO  17:17:21,150 - ===================================
+INFO  17:17:21,152 - ===================================
+INFO  17:17:21,156 - Parsiranje uspesno zavrseno!
